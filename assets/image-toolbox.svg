@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="40" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C345F"/>
+      <stop offset=".55" stop-color="#332948"/>
+      <stop offset="1" stop-color="#211C35"/>
+    </linearGradient>
+    <linearGradient id="art" x1="415" y1="110" x2="840" y2="547" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE0AA"/>
+      <stop offset=".4" stop-color="#F695AB"/>
+      <stop offset=".76" stop-color="#A58AF0"/>
+      <stop offset="1" stop-color="#5D5AAE"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="508" y1="330" x2="855" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9D2A4"/>
+      <stop offset="1" stop-color="#7259BE"/>
+    </linearGradient>
+    <filter id="shadow" x="245" y="54" width="710" height="617" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#EDE1FF" fill-opacity=".25"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v640H0z"/>
+  <path fill="url(#dots)" d="M0 0h1200v640H0z" opacity=".45"/>
+  <circle cx="943" cy="117" r="164" fill="#B189F7" fill-opacity=".12"/>
+  <circle cx="270" cy="547" r="185" fill="#F584A8" fill-opacity=".09"/>
+  <g filter="url(#shadow)" opacity=".48">
+    <rect x="372" y="111" width="430" height="444" rx="28" fill="#090713"/>
+  </g>
+  <g transform="rotate(-5 589 329)">
+    <rect x="378" y="80" width="435" height="464" rx="24" fill="#201A32" stroke="#F5E9FF" stroke-opacity=".4" stroke-width="2"/>
+    <rect x="397" y="98" width="397" height="32" rx="12" fill="#2D253F"/>
+    <circle cx="416" cy="114" r="4" fill="#FF9BAF"/>
+    <circle cx="432" cy="114" r="4" fill="#FFD88F"/>
+    <circle cx="448" cy="114" r="4" fill="#D5F18A"/>
+    <rect x="397" y="145" width="397" height="313" rx="14" fill="url(#art)"/>
+    <circle cx="686" cy="228" r="61" fill="#FFF0B8"/>
+    <circle cx="686" cy="228" r="84" fill="#FFF0B8" fill-opacity=".12"/>
+    <path d="M397 390c78-88 148-93 218-44 47 34 109 37 179-21v133H397V390Z" fill="#9A77D1"/>
+    <path d="M397 422c86-46 153-58 221-7 62 47 120 45 176 13v30H397v-36Z" fill="url(#hill)"/>
+    <rect x="405" y="476" width="43" height="43" rx="11" fill="#EFA0B4"/>
+    <rect x="459" y="476" width="43" height="43" rx="11" fill="#DBBAA2"/>
+    <rect x="513" y="476" width="43" height="43" rx="11" fill="#B596E9"/>
+    <rect x="567" y="476" width="43" height="43" rx="11" fill="#726BB8"/>
+  </g>
+  <circle cx="877" cy="194" r="57" fill="#D9FA80" stroke="#FFF" stroke-opacity=".35" stroke-width="2"/>
+  <path d="m877 162 8 22 22 8-22 8-8 22-8-22-22-8 22-8 8-22Z" fill="#27213A"/>
+  <path d="m244 185 8 22 22 8-22 8-8 22-8-22-22-8 22-8 8-22Z" fill="#FF9BAF"/>
+  <path d="m943 422 6 17 17 6-17 6-6 17-6-17-17-6 17-6 6-17Z" fill="#D0B8FF"/>
+  <text x="600" y="600" fill="#F4EDFF" fill-opacity=".78" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" text-anchor="middle">YOUR CREATIVE TOOLBOX</text>
+</svg>

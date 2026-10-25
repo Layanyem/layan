@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0E8"/><stop offset="1" stop-color="#EDE3FF"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="260" y1="130" x2="640" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC68E"/><stop offset=".5" stop-color="#EE88A5"/><stop offset="1" stop-color="#8770DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <rect x="218" y="43" width="464" height="514" rx="42" fill="#FFF" stroke="#E5D9F2" stroke-width="3"/>
+  <rect x="229" y="55" width="442" height="490" rx="33" fill="#FFFCFF"/>
+  <text x="450" y="98" fill="#382B50" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">استوديو الصور</text>
+  <rect x="251" y="119" width="398" height="286" rx="20" fill="url(#photo)"/>
+  <circle cx="558" cy="192" r="44" fill="#FFF2C6"/>
+  <path d="M251 336c80-78 136-80 205-29 63 47 117 34 193-24v122H251V336Z" fill="#8870D4"/>
+  <path d="M251 367c74-34 126-38 182-4 60 37 124 25 216-21v63H251v-38Z" fill="#FFD0B0" fill-opacity=".8"/>
+  <rect x="258" y="426" width="67" height="67" rx="17" fill="#EFE5FB"/>
+  <rect x="343" y="426" width="67" height="67" rx="17" fill="#FFF0E8"/>
+  <rect x="428" y="426" width="67" height="67" rx="17" fill="#EDE8FF"/>
+  <rect x="513" y="426" width="67" height="67" rx="17" fill="#FCE7F0"/>
+  <text x="450" y="518" fill="#8A7D98" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">لقطة تجريبية — استبدليها بصورة التطبيق</text>
+</svg>

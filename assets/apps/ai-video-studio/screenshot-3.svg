@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE9E8"/><stop offset="1" stop-color="#E8E5FF"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="270" y1="0" x2="630" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6BA9E"/><stop offset=".55" stop-color="#D390C7"/><stop offset="1" stop-color="#7381CF"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <rect x="218" y="43" width="464" height="514" rx="42" fill="#FFF" stroke="#E5D9F2" stroke-width="3"/>
+  <rect x="229" y="55" width="442" height="490" rx="33" fill="#FFFCFF"/>
+  <text x="450" y="98" fill="#382B50" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">قصتكِ جاهزة للمشاهدة</text>
+  <rect x="251" y="119" width="398" height="234" rx="20" fill="url(#frame)"/>
+  <circle cx="561" cy="176" r="29" fill="#FFF0C2"/>
+  <path d="M251 302c74-82 142-81 207-28 49 39 103 28 191-31v110H251v-51Z" fill="#766CC7"/>
+  <circle cx="450" cy="236" r="34" fill="#FFF" fill-opacity=".82"/>
+  <path d="m443 219 25 17-25 17v-34Z" fill="#7954D8"/>
+  <text x="258" y="389" fill="#6C5C82" font-family="Arial,sans-serif" font-size="13">مشاهد الفيديو</text>
+  <rect x="256" y="405" width="112" height="65" rx="10" fill="#F3B6AA"/>
+  <rect x="381" y="405" width="112" height="65" rx="10" fill="#C796DA"/>
+  <rect x="506" y="405" width="112" height="65" rx="10" fill="#8187D2"/>
+  <rect x="256" y="487" width="362" height="6" rx="3" fill="#E8E1F0"/>
+  <rect x="256" y="487" width="208" height="6" rx="3" fill="#DA86A7"/>
+  <text x="450" y="527" fill="#8A7D98" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">لقطة تجريبية — حدّثي الصورة لاحقًا</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E9FF"/><stop offset="1" stop-color="#FFEDE7"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="270" y1="152" x2="640" y2="405" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7B2F4"/><stop offset=".52" stop-color="#F2A5BD"/><stop offset="1" stop-color="#FFD596"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <rect x="218" y="43" width="464" height="514" rx="42" fill="#FFF" stroke="#E5D9F2" stroke-width="3"/>
+  <rect x="229" y="55" width="442" height="490" rx="33" fill="#FFFCFF"/>
+  <text x="450" y="98" fill="#382B50" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">تحسين ذكي</text>
+  <rect x="251" y="119" width="398" height="286" rx="20" fill="url(#photo)"/>
+  <circle cx="451" cy="253" r="79" fill="#FFF2C6" fill-opacity=".88"/>
+  <path d="m451 201 14 38 38 14-38 14-14 38-14-38-38-14 38-14 14-38Z" fill="#ED829D"/>
+  <path d="M295 346c37-55 85-58 117-16 29 37 65 42 111-2 32-30 66-30 103 4v73H295v-59Z" fill="#816CD2" fill-opacity=".8"/>
+  <rect x="259" y="425" width="380" height="13" rx="6.5" fill="#E9E2F1"/>
+  <rect x="259" y="425" width="247" height="13" rx="6.5" fill="#9B7BE6"/>
+  <circle cx="506" cy="431.5" r="9" fill="#FFF" stroke="#8B6CDC" stroke-width="4"/>
+  <rect x="279" y="458" width="342" height="43" rx="15" fill="#F0E9FC"/>
+  <text x="450" y="485" fill="#685887" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">أدوات وتجربة واجهة مؤقتة</text>
+  <text x="450" y="524" fill="#8A7D98" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">استبدليها بلقطة شاشة حقيقية</text>
+</svg>

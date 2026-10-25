@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFECE6"/><stop offset="1" stop-color="#E4E4FF"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="254" y1="126" x2="640" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCA98"/><stop offset=".5" stop-color="#E78DAF"/><stop offset="1" stop-color="#7778D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <rect x="218" y="43" width="464" height="514" rx="42" fill="#FFF" stroke="#E5D9F2" stroke-width="3"/>
+  <rect x="229" y="55" width="442" height="490" rx="33" fill="#FFFCFF"/>
+  <text x="450" y="98" fill="#382B50" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">استوديو الفيديو</text>
+  <rect x="251" y="119" width="398" height="286" rx="20" fill="url(#scene)"/>
+  <circle cx="565" cy="196" r="37" fill="#FFF0C2"/>
+  <path d="M251 329c72-70 132-89 198-37 55 44 115 36 200-23v136H251V329Z" fill="#8971C6"/>
+  <path d="M251 368c77-30 125-38 180-4 65 40 134 23 218-18v59H251v-37Z" fill="#E9B6C3" fill-opacity=".85"/>
+  <circle cx="450" cy="264" r="35" fill="#FFF" fill-opacity=".84"/>
+  <path d="m442 246 26 18-26 18v-36Z" fill="#7954D8"/>
+  <rect x="251" y="425" width="398" height="14" rx="7" fill="#EAE3F0"/>
+  <rect x="251" y="425" width="149" height="14" rx="7" fill="#D484A4"/>
+  <text x="450" y="486" fill="#8A7D98" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">لقطة تجريبية — استبدليها بصورة التطبيق</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEE8FF"/><stop offset="1" stop-color="#FFE9E5"/>
+    </linearGradient>
+    <linearGradient id="video" x1="260" y1="0" x2="640" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7BD9A"/><stop offset=".5" stop-color="#C587D5"/><stop offset="1" stop-color="#7786D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <rect x="218" y="43" width="464" height="514" rx="42" fill="#FFF" stroke="#E5D9F2" stroke-width="3"/>
+  <rect x="229" y="55" width="442" height="490" rx="33" fill="#FFFCFF"/>
+  <text x="450" y="98" fill="#382B50" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">اصنعي فكرتكِ</text>
+  <rect x="251" y="119" width="398" height="230" rx="20" fill="url(#video)"/>
+  <circle cx="544" cy="182" r="31" fill="#FFECC3"/>
+  <path d="M251 285c68-66 130-73 189-24 53 45 122 34 209-18v106H251v-64Z" fill="#7569C2"/>
+  <rect x="256" y="369" width="388" height="70" rx="16" fill="#F0EAF9"/>
+  <text x="280" y="396" fill="#6C5C82" font-family="Arial,sans-serif" font-size="13">اكتبي وصفًا للفيديو الذي تتخيلينه...</text>
+  <rect x="275" y="410" width="235" height="7" rx="3.5" fill="#D2C8DF"/>
+  <rect x="256" y="455" width="388" height="48" rx="15" fill="#7954D8"/>
+  <text x="450" y="485" fill="#FFF" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">إنشاء فيديو — معاينة واجهة مؤقتة</text>
+  <text x="450" y="527" fill="#8A7D98" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">استبدليها بلقطة شاشة حقيقية</text>
+</svg>

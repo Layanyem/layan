@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff9f5">
+    <meta
+      name="description"
+      content="تطبيقات ليان الإبداعية: أدوات ذكية لتحرير الصور وصناعة الفيديو."
+    >
+    <title>ليان — تطبيقات للإبداع</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#home" aria-label="ليان، إلى الرئيسية">
+          <img class="brand-mark" src="assets/favicon-512.webp" alt="" aria-hidden="true" width="39" height="39">
+          <span class="brand-name">ليان<span class="brand-period">.</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="فتح القائمة"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-navigation" id="main-navigation" aria-label="القائمة الرئيسية">
+          <a class="nav-link active" href="#home">الرئيسية</a>
+          <a class="nav-link" href="#apps">التطبيقات</a>
+          <a class="nav-link" href="#about">عن ليان</a>
+        </nav>
+
+        <a class="header-cta" href="#apps">
+          عرض التطبيقات
+          <span aria-hidden="true">↙</span>
+        </a>
+      </header>
+
+      <main>
+        <section class="hero section-wrap" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> تطبيقات ليان الإبداعية</p>
+            <h1>كل فكرة إبداعية تبدأ <span>من هنا.</span></h1>
+            <p class="hero-description">
+              أدوات ذكية للصور والفيديو، لتصميم صور مميزة وصناعة فيديوهات إبداعية بسهولة ومن مكان واحد.
+            </p>
+          </div>
+        </section>
+
+        <section class="apps-section section-wrap" id="apps">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-dot"></span> إبداع في متناول اليد</p>
+              <h2>تطبيقات <span>ليان.</span></h2>
+            </div>
+            <p class="section-intro">
+              معلومات المزايا ولقطات الشاشة وروابط التنزيل.
+            </p>
+          </div>
+
+          <div class="app-grid" id="app-grid" aria-live="polite"></div>
+          <p class="apps-footnote"><span aria-hidden="true">✳</span> أدوات جديدة ومفاجآت إبداعية في الطريق.</p>
+        </section>
+
+        <section class="about-section section-wrap" id="about">
+          <div class="about-star" aria-hidden="true">✳</div>
+          <div class="about-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> وراء كل تطبيق حكاية</p>
+            <h2>أنا ليان، وأؤمن أن <span>الإبداع للجميع.</span></h2>
+            <p>
+              أبني تجارب رقمية تجمع بين البساطة والخيال، وتحول الأدوات الذكية إلى مساحة ممتعة للتجربة وصناعة أفكار جديدة.
+            </p>
+          </div>
+          <a class="about-link" href="#apps" aria-label="عرض التطبيقات">
+            <span>عرض التطبيقات</span>
+            <span class="about-link-arrow" aria-hidden="true">↙</span>
+          </a>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="brand footer-brand" href="#home" aria-label="ليان، إلى أعلى الصفحة">
+          <img class="brand-mark" src="assets/favicon-512.webp" alt="" aria-hidden="true" width="33" height="33">
+          <span class="brand-name">ليان<span class="brand-period">.</span></span>
+        </a>
+        <p>أفكار تنمو، وإبداع يليق بالجميع.</p>
+        <span class="copyright">© <span id="current-year"></span> ليان</span>
+      </footer>
+    </div>
+  </body>
+</html>

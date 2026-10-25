@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="110" y1="0" x2="1070" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#392647"/>
+      <stop offset=".48" stop-color="#292343"/>
+      <stop offset="1" stop-color="#191A36"/>
+    </linearGradient>
+    <linearGradient id="scene" x1="420" y1="125" x2="814" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAAB9D"/>
+      <stop offset=".48" stop-color="#C57CCD"/>
+      <stop offset="1" stop-color="#646CC0"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="469" y1="323" x2="830" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4A8C2"/>
+      <stop offset="1" stop-color="#514F91"/>
+    </linearGradient>
+    <filter id="shadow" x="260" y="49" width="684" height="642" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="27"/>
+    </filter>
+    <pattern id="stars" width="110" height="82" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="20" r="1.5" fill="#FFF" fill-opacity=".6"/>
+      <circle cx="73" cy="56" r="1" fill="#FFF" fill-opacity=".5"/>
+      <path d="m96 11 2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5Z" fill="#FFF" fill-opacity=".45"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v640H0z"/>
+  <path fill="url(#stars)" d="M0 0h1200v640H0z" opacity=".76"/>
+  <circle cx="180" cy="123" r="120" fill="#CE91EA" fill-opacity=".09"/>
+  <circle cx="1001" cy="520" r="165" fill="#7D8BFF" fill-opacity=".12"/>
+  <g filter="url(#shadow)" opacity=".5">
+    <rect x="374" y="91" width="432" height="488" rx="28" fill="#090713"/>
+  </g>
+  <g transform="rotate(4 590 326)">
+    <rect x="381" y="79" width="432" height="480" rx="25" fill="#1E1B33" stroke="#F5E9FF" stroke-opacity=".37" stroke-width="2"/>
+    <rect x="399" y="98" width="396" height="305" rx="14" fill="url(#scene)"/>
+    <circle cx="688" cy="173" r="35" fill="#FFE3AF"/>
+    <circle cx="688" cy="173" r="62" fill="#FFE3AF" fill-opacity=".13"/>
+    <path d="M399 314c75-89 131-109 194-47 37 36 91 49 202-10v146H399V314Z" fill="#8166B2"/>
+    <path d="M399 347c78-43 118-40 180-6 52 28 103 27 216-18v80H399v-56Z" fill="url(#mountain)"/>
+    <rect x="399" y="416" width="396" height="5" rx="2.5" fill="#534D66"/>
+    <rect x="399" y="416" width="146" height="5" rx="2.5" fill="#D9FA80"/>
+    <circle cx="545" cy="418.5" r="5.5" fill="#D9FA80"/>
+    <rect x="399" y="435" width="82" height="55" rx="7" fill="#F199B4"/>
+    <rect x="488" y="435" width="82" height="55" rx="7" fill="#B984D5"/>
+    <rect x="577" y="435" width="82" height="55" rx="7" fill="#7777C9"/>
+    <rect x="666" y="435" width="82" height="55" rx="7" fill="#E6A2B6"/>
+    <rect x="399" y="502" width="396" height="39" rx="9" fill="#2B263E"/>
+    <path d="m421 515 13 7-13 7v-14Z" fill="#D9FA80"/>
+    <rect x="449" y="518" width="54" height="3" rx="1.5" fill="#F4EDFF" fill-opacity=".66"/>
+    <rect x="449" y="525" width="36" height="3" rx="1.5" fill="#F4EDFF" fill-opacity=".28"/>
+  </g>
+  <circle cx="859" cy="179" r="57" fill="#D9FA80" stroke="#FFF" stroke-opacity=".35" stroke-width="2"/>
+  <path d="m849 151 35 28-35 28v-56Z" fill="#29233C"/>
+  <path d="m287 421 8 22 22 8-22 8-8 22-8-22-22-8 22-8 8-22Z" fill="#FF9BAF"/>
+  <path d="m941 353 6 17 17 6-17 6-6 17-6-17-17-6 17-6 6-17Z" fill="#D0B8FF"/>
+  <text x="600" y="607" fill="#F4EDFF" fill-opacity=".78" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" text-anchor="middle">IMAGINE IT. WATCH IT HAPPEN.</text>
+</svg>
